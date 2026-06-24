@@ -45,7 +45,6 @@ const Dashboard = () => {
               {getInitial(user?.name)}
             </div>
             <h3 className="profile-name">{user?.name}</h3>
-            <p className="profile-email">{user?.email}</p>
             
             <div style={{ width: '100%', borderTop: '1px solid var(--glass-border)', margin: '20px 0' }}></div>
             
